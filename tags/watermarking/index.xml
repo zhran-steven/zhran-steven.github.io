@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Watermarking on Ran Zhuoheng (Steven)</title>
+        <title>watermarking on Ran Zhuoheng</title>
         <link>https://www.ranzhuoheng.com/tags/watermarking/</link>
-        <description>Recent content in Watermarking on Ran Zhuoheng (Steven)</description>
+        <description>Recent content in watermarking on Ran Zhuoheng</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <lastBuildDate>Tue, 03 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.ranzhuoheng.com/tags/watermarking/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>My paper has been presented at the 2022 IEEE ASID Conference 🎉</title>
-        <link>https://www.ranzhuoheng.com/my-paper-has-been-presented-at-the-2022-ieee-asid-conference/</link>
+        <title>Performance and Security Enhancement Solutions for Positron Emission Tomography Medical Hardware</title>
+        <link>https://www.ranzhuoheng.com/performance-and-security-enhancement-solutions-for-positron-emission-tomography-medical-hardware/</link>
         <pubDate>Tue, 03 Jan 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://www.ranzhuoheng.com/my-paper-has-been-presented-at-the-2022-ieee-asid-conference/</guid>
-        <description>&lt;img src="https://www.ranzhuoheng.com/my-paper-has-been-presented-at-the-2022-ieee-asid-conference/IEEE.jpg" alt="Featured image of post My paper has been presented at the 2022 IEEE ASID Conference 🎉" /&gt;&lt;p&gt;I would like to thank those who have contributed to this work. This work is an arduous and brave combination for me since medicine is not my specialized field, so I have to investigate more. The biomedical engineering field is still a great challenge for me, but I hope it would be good proof and inspire my research in other cross-cutting and multi-field research.&lt;/p&gt;
-&lt;p&gt;Title: Performance and Security Enhancement Solutions for Positron Emission Tomography Medical Hardware&lt;/p&gt;
+        <guid>https://www.ranzhuoheng.com/performance-and-security-enhancement-solutions-for-positron-emission-tomography-medical-hardware/</guid>
+        <description>&lt;img src="https://www.ranzhuoheng.com/performance-and-security-enhancement-solutions-for-positron-emission-tomography-medical-hardware/IEEE.jpg" alt="Featured image of post Performance and Security Enhancement Solutions for Positron Emission Tomography Medical Hardware" /&gt;&lt;p&gt;My paper &amp;ldquo;Performance and Security Enhancement Solutions for Positron Emission Tomography Medical Hardwarehas&amp;rdquo; has already been presented at the 2022 IEEE International Conference on ASID 🎉.&lt;/p&gt;
+&lt;p&gt;I would like to thank those who have contributed to this work. This work is an arduous and brave combination for me since medicine is not my specialized field, so I have to investigate more. The biomedical engineering field is still a great challenge for me, but I hope it can inspire my research in other cross-cutting and multi-disciplinary areas.&lt;/p&gt;
 &lt;p&gt;Abstract: Positron Emission Tomography (PET) is an emerging medical imaging methodology for diagnosing cancer. The optimization and security solutions surrounding this technology are essential issues in biomedical engineering. Low-resolution and unauthorized modification of medical images will affect clinical analysis and medical diagnostics. To improve image quality and security while minimizing its impact on medical hardware, this paper analyzes a highly integrated data acquisition approach based on Time-over-Threshold (ToT) and proposes a lightweight security solution based on Physically Unclonable Function (PUF) for PET scan medical hardware. Compared to existing applications, the time-based sampling method can provide very good image quality, and the proposed watermarking and encryption method based on PUF enables enhanced privacy protection with fewer hardware costs for PET medical imaging technology.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;More information and documents: &lt;a class=&#34;link&#34; href=&#34;https://ieeexplore.ieee.org/document/9995986&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;p&gt;IEEE Xplore is Now &lt;a class=&#34;link&#34; href=&#34;https://ieeexplore.ieee.org/document/9995986&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Available&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;hr&gt;

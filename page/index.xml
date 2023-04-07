@@ -1,12 +1,37 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Pages on Ran Zhuoheng (Steven)</title>
+        <title>Pages on Ran Zhuoheng</title>
         <link>https://www.ranzhuoheng.com/page/</link>
-        <description>Recent content in Pages on Ran Zhuoheng (Steven)</description>
+        <description>Recent content in Pages on Ran Zhuoheng</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Mon, 05 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.ranzhuoheng.com/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 08 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.ranzhuoheng.com/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>About Me</title>
+        <link>https://www.ranzhuoheng.com/about-me/</link>
+        <pubDate>Wed, 08 Mar 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.ranzhuoheng.com/about-me/</guid>
+        <description>&lt;p&gt;I am recently going to Hong Kong as a full-time research assistant and then registered as a full-time PhD student at &lt;a class=&#34;link&#34; href=&#34;https://www.cityu.edu.hk/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;City University of Hong Kong&lt;/a&gt; which starting from 1 September. My postgraduate research has ended in 2022 at the &lt;a class=&#34;link&#34; href=&#34;https://www.ecs.soton.ac.uk/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;School of Electronics and Computer Science(ECS)&lt;/a&gt; of the University of Southampton, which is a leading academic institution and is ranked &lt;a class=&#34;link&#34; href=&#34;https://www.theguardian.com/education/ng-interactive/2021/sep/11/the-best-uk-universities-2022-rankings&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;1st in the UK for Electrical and Electronic Engineering&lt;/a&gt;. Before that, I graduated with a Bachelor of Engineering (B.Eng.) degree from &lt;a class=&#34;link&#34; href=&#34;https://en.tiangong.edu.cn/main.htm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Tiangong University&lt;/a&gt;, which is one of the universities in China under the &lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Double_First_Class_University_Plan&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&amp;ldquo;Double First Class Universities&amp;rdquo;&lt;/a&gt; plan.&lt;/p&gt;
+&lt;p&gt;I think the world will need more IoT-based smart devices in the future, and they may be constrained by power consumption and size. Security will be the biggest issue for such devices under the background of the technology that has been fully developed. My current research interests include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;AIoT security&lt;/li&gt;
+&lt;li&gt;Digital System Design with FPGA&lt;/li&gt;
+&lt;li&gt;Wearable Medical Devices&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Beyond the general research programme, I am also currently working initially on the Excellence Research Programme which started from my research and preparation for my PhD at the University of Southampton. This project aimed to undertake an absolutely leading research over four years and publish it in a high-level journal, which might consist of several supportive top conferences. Scholars from around the world are welcome to contribute to this programme.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Learn more and contribute on &lt;a class=&#34;link&#34; href=&#34;https://www.ranzhuoheng.com/excellence-research/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Excellence Research Programme&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        </item>
+        <item>
         <title>Excellence Research</title>
         <link>https://www.ranzhuoheng.com/excellence-research/</link>
         <pubDate>Mon, 05 Sep 2022 00:00:00 +0000</pubDate>
@@ -17,8 +42,8 @@
 &lt;p&gt;In Hartley Library, University of Southampton, UK.&lt;/p&gt;
 &lt;p&gt;5th September 2022.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Learn more and contribute on [Not available].
-(I am now actively seeking many views from scholars worldwide on a wide range of topics and will publish it at the appropriate time. You are welcome to contribute to this in any way possible, and all contributions and name will be permanently stored on my website when summarized.)&lt;/p&gt;
+&lt;p&gt;Learn more and contribute on [Not available].&lt;/p&gt;
+&lt;p&gt;(I am now actively seeking many views from scholars worldwide on a wide range of topics and will publish it at the appropriate time. You are welcome to contribute to this in any way possible, and all contributions and name will be permanently stored on my website when summarized.)&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
         </item>
@@ -29,29 +54,6 @@
         
         <guid>https://www.ranzhuoheng.com/archives/</guid>
         <description></description>
-        </item>
-        <item>
-        <title>About Me</title>
-        <link>https://www.ranzhuoheng.com/about-me/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://www.ranzhuoheng.com/about-me/</guid>
-        <description>&lt;p&gt;I recently finished my postgraduate research at the University of Southampton&amp;rsquo;s &lt;a class=&#34;link&#34; href=&#34;https://www.ecs.soton.ac.uk/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;School of Electronics and Computer Science(ECS)&lt;/a&gt;, which is &lt;a class=&#34;link&#34; href=&#34;https://www.theguardian.com/education/ng-interactive/2021/sep/11/the-best-uk-universities-2022-rankings&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;1st in the UK for Electrical and Electronic Engineering&lt;/a&gt;. My supervisor is &lt;a class=&#34;link&#34; href=&#34;https://scholar.google.co.uk/citations?user=2PifIaUAAAAJ&amp;amp;hl=en&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Dr. Basel Halak&lt;/a&gt;. He is Associate Professor and the director of the &lt;a class=&#34;link&#34; href=&#34;https://www.c-iot.ecs.soton.ac.uk/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;C-IoT program&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;I think the world will need more IoT-based smart devices in the future, and they may be constrained by power consumption and size. And security will be the biggest issue for such devices in the background of the technology that has been fully developed.&lt;/p&gt;
-&lt;p&gt;My research interests include including:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;AIoT security&lt;/li&gt;
-&lt;li&gt;Digital System Design with FPGA&lt;/li&gt;
-&lt;li&gt;Wearable Medical Devices&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Beyond the basic research programme, I also proposed the Excellence Research Programme when I was still studying for my Master in Southampton and planning to do my PhD, which aimed to complete an absolutely leading excellence research over four years and publish it in a high-level journal, it might consist of several supportive top conferences. Scholars from around the world are welcome to contribute to this programme.&lt;/p&gt;
-&lt;p&gt;Learn more and contribute on &lt;a class=&#34;link&#34; href=&#34;https://www.ranzhuoheng.com/excellence-research/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Excellence Research Programme&lt;/a&gt;.&lt;/p&gt;
-</description>
         </item>
         <item>
         <title>Links</title>

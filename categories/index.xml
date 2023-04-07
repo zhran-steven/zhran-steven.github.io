@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Categories on Ran Zhuoheng (Steven)</title>
+        <title>Categories on Ran Zhuoheng</title>
         <link>https://www.ranzhuoheng.com/categories/</link>
-        <description>Recent content in Categories on Ran Zhuoheng (Steven)</description>
+        <description>Recent content in Categories on Ran Zhuoheng</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <lastBuildDate>Thu, 30 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.ranzhuoheng.com/categories/index.xml" rel="self" type="application/rss+xml" /><item>
@@ -15,6 +15,14 @@
         <description></description>
         </item>
         <item>
+        <title>Master&#39;s degree</title>
+        <link>https://www.ranzhuoheng.com/categories/masters-degree/</link>
+        <pubDate>Thu, 30 Mar 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.ranzhuoheng.com/categories/masters-degree/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>IEEE Journal</title>
         <link>https://www.ranzhuoheng.com/categories/ieee-journal/</link>
         <pubDate>Sat, 29 Oct 2022 00:00:00 +0000</pubDate>
@@ -23,17 +31,57 @@
         <description></description>
         </item>
         <item>
-        <title>Bachelor&#39;s Outcomes</title>
-        <link>https://www.ranzhuoheng.com/categories/bachelors-outcomes/</link>
-        <pubDate>Wed, 27 Oct 2021 00:00:00 +0000</pubDate>
+        <title>Ongoing Work</title>
+        <link>https://www.ranzhuoheng.com/categories/ongoing-work/</link>
+        <pubDate>Sat, 29 Oct 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://www.ranzhuoheng.com/categories/bachelors-outcomes/</guid>
+        <guid>https://www.ranzhuoheng.com/categories/ongoing-work/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Bachelor&#39;s degree</title>
+        <link>https://www.ranzhuoheng.com/categories/bachelors-degree/</link>
+        <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.ranzhuoheng.com/categories/bachelors-degree/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>China Patents</title>
+        <link>https://www.ranzhuoheng.com/categories/china-patents/</link>
+        <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.ranzhuoheng.com/categories/china-patents/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>College Students&#39; Innovative Entrepreneurial Training Plan Program (大学生创新创业训练计划项目 202010058055)</title>
+        <link>https://www.ranzhuoheng.com/categories/college-students-innovative-entrepreneurial-training-plan-program-%E5%A4%A7%E5%AD%A6%E7%94%9F%E5%88%9B%E6%96%B0%E5%88%9B%E4%B8%9A%E8%AE%AD%E7%BB%83%E8%AE%A1%E5%88%92%E9%A1%B9%E7%9B%AE-202010058055/</link>
+        <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.ranzhuoheng.com/categories/college-students-innovative-entrepreneurial-training-plan-program-%E5%A4%A7%E5%AD%A6%E7%94%9F%E5%88%9B%E6%96%B0%E5%88%9B%E4%B8%9A%E8%AE%AD%E7%BB%83%E8%AE%A1%E5%88%92%E9%A1%B9%E7%9B%AE-202010058055/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Invention Patents</title>
+        <link>https://www.ranzhuoheng.com/categories/invention-patents/</link>
+        <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.ranzhuoheng.com/categories/invention-patents/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>CNKI Journal</title>
+        <link>https://www.ranzhuoheng.com/categories/cnki-journal/</link>
+        <pubDate>Fri, 14 Jan 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.ranzhuoheng.com/categories/cnki-journal/</guid>
         <description></description>
         </item>
         <item>
         <title>Dissertation</title>
         <link>https://www.ranzhuoheng.com/categories/dissertation/</link>
-        <pubDate>Wed, 27 Oct 2021 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 27 May 2021 00:00:00 +0000</pubDate>
         
         <guid>https://www.ranzhuoheng.com/categories/dissertation/</guid>
         <description></description>

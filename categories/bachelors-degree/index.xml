@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Bachelor&#39;s degree on Ran Zhuoheng</title>
+        <link>https://www.ranzhuoheng.com/categories/bachelors-degree/</link>
+        <description>Recent content in Bachelor&#39;s degree on Ran Zhuoheng</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Fri, 01 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.ranzhuoheng.com/categories/bachelors-degree/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>一种无人机组双向无线充电系统及其路径规划设计 (Patent Number: CN202210525770.2)</title>
+        <link>https://www.ranzhuoheng.com/%E4%B8%80%E7%A7%8D%E6%97%A0%E4%BA%BA%E6%9C%BA%E7%BB%84%E5%8F%8C%E5%90%91%E6%97%A0%E7%BA%BF%E5%85%85%E7%94%B5%E7%B3%BB%E7%BB%9F%E5%8F%8A%E5%85%B6%E8%B7%AF%E5%BE%84%E8%A7%84%E5%88%92%E8%AE%BE%E8%AE%A1-patent-number-cn202210525770.2/</link>
+        <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.ranzhuoheng.com/%E4%B8%80%E7%A7%8D%E6%97%A0%E4%BA%BA%E6%9C%BA%E7%BB%84%E5%8F%8C%E5%90%91%E6%97%A0%E7%BA%BF%E5%85%85%E7%94%B5%E7%B3%BB%E7%BB%9F%E5%8F%8A%E5%85%B6%E8%B7%AF%E5%BE%84%E8%A7%84%E5%88%92%E8%AE%BE%E8%AE%A1-patent-number-cn202210525770.2/</guid>
+        <description>&lt;img src="https://www.ranzhuoheng.com/%E4%B8%80%E7%A7%8D%E6%97%A0%E4%BA%BA%E6%9C%BA%E7%BB%84%E5%8F%8C%E5%90%91%E6%97%A0%E7%BA%BF%E5%85%85%E7%94%B5%E7%B3%BB%E7%BB%9F%E5%8F%8A%E5%85%B6%E8%B7%AF%E5%BE%84%E8%A7%84%E5%88%92%E8%AE%BE%E8%AE%A1-patent-number-cn202210525770.2/IEEE.jpg" alt="Featured image of post 一种无人机组双向无线充电系统及其路径规划设计 (Patent Number: CN202210525770.2)" /&gt;&lt;p&gt;This work is partly funded under College Students&amp;rsquo; Innovative Entrepreneurial Training Plan Program (大学生创新创业训练计划项目 202010058055) from Tiangong University.&lt;/p&gt;
+&lt;p&gt;Patent Name: 一种无人机组双向无线充电系统及其路径规划设计 (A two-way wireless charging system for UAV sets and its path planning design) (translated by software)&lt;/p&gt;
+&lt;p&gt;Abstract: The present invention discloses a two-way wireless charging system for an unmanned aircraft group and its path planning design, in which the structure of the said two-way wireless charging system for an unmanned aircraft group includes a wireless charging base station, two unmanned aircraft and a sensor. The wireless charging base station is equipped with a transmitting coil; the UAV is equipped with a coupling coil; and the sensor is equipped with a receiving coil. When the UAV is located above the sensor or on the wireless charging base station, the corresponding coils are electromagnetically coupled and the UAV charges the sensor or the wireless charging base station charges the UAV. The said path planning design includes constructing a mathematical model of the UAV path, constructing a node selection strategy according to the priority calculation function; generating the initial solution of the model; optimizing the initial solution by means of constraints; and iterating the solution by substituting real-time data to obtain the optimal route. The invention has the advantages of extending the life of the sensor network, saving human and material resources, and is able to operate automatically in some harsh environments or locations that are difficult to reach by humans, which has a wider range of applications. (translated by software)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;China Invention Patents is Now &lt;a class=&#34;link&#34; href=&#34;https://www.cnki.net/KCMS/detail/detail.aspx?dbcode=SCPD&amp;amp;dbname=SCPD202203&amp;amp;filename=CN114683882A&amp;amp;uniplatform=OVERSEA&amp;amp;v=Wl0I1qxkJ61qGbnSBuv3HE2BMOWsCJHi1ljgXATiiPKQ6z3JM4Q0odBUTKxNuRq4&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Available&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+</description>
+        </item>
+        <item>
+        <title>Intelligent environment assistant based on μC/OS-III operating system and OneNET cloud platform</title>
+        <link>https://www.ranzhuoheng.com/intelligent-environment-assistant-based-on-%CE%BCc/os-iii-operating-system-and-onenet-cloud-platform/</link>
+        <pubDate>Fri, 14 Jan 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.ranzhuoheng.com/intelligent-environment-assistant-based-on-%CE%BCc/os-iii-operating-system-and-onenet-cloud-platform/</guid>
+        <description>&lt;img src="https://www.ranzhuoheng.com/intelligent-environment-assistant-based-on-%CE%BCc/os-iii-operating-system-and-onenet-cloud-platform/IEEE.jpg" alt="Featured image of post Intelligent environment assistant based on μC/OS-III operating system and OneNET cloud platform" /&gt;&lt;p&gt;My paper &amp;ldquo;Intelligent environment assistant based on μC/OS-III operating system and OneNET cloud platform&amp;rdquo; has already been presented at Internet of Things Technologies 🎉.&lt;/p&gt;
+&lt;p&gt;Abstract: In recent years, with the popularity of smart home products in many households, system intelligence and data visualization have become the trend of such devices. This paper uses the STM32F103 microprocessor development platform to design a smart environment assistant based on the μC/OS-Ⅲ operating system and China Mobile&amp;rsquo;s OneNET IoT cloud platform. μC/OS series operating system not only has a lightweight kernel, but also has excellent stability. The OneNET IoT cloud platform provides real-time data collection, location awareness and other services. The system collects and displays environmental parameters such as smoke, PM2.5, temperature and humidity on an LCD screen, and also adds the ability to obtain hazard warning counts and travel advice indices. The GSM/GPRS communication module transmits monitoring data and warning and advice information to the OneNET IoT cloud platform via the MQTT transmission protocol. The user can access the information via PC or mobile app, which greatly improves the time and space limitations of traditional environmental monitoring equipment. The system also uses event flag groups to synchronise different tasks and optimises task priority settings, allowing people to focus on key parameters while achieving low power consumption and saving resources in the cloud. The system is not only suitable for monitoring and alarming hazardous gases in indoor environments, but can also be placed on balconies as an assistant for daily travel advice, which is practical and economical. (translated by software)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;China National Knowledge Infrastructure (CNKI) is Now &lt;a class=&#34;link&#34; href=&#34;https://www.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFD&amp;amp;dbname=CJFDLAST2022&amp;amp;filename=WLWJ202201022&amp;amp;uniplatform=OVERSEA&amp;amp;v=inTBg3hcrz39yagfF4aTW5hOxRPqBPJa-eFL0aC6zQNi26yMT6tybfvkINaJsZSs&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Available&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+</description>
+        </item>
+        <item>
+        <title>Design of Two-way Wireless Charging System for UAV</title>
+        <link>https://www.ranzhuoheng.com/design-of-two-way-wireless-charging-system-for-uav/</link>
+        <pubDate>Mon, 10 Jan 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.ranzhuoheng.com/design-of-two-way-wireless-charging-system-for-uav/</guid>
+        <description>&lt;img src="https://www.ranzhuoheng.com/design-of-two-way-wireless-charging-system-for-uav/IEEE.jpg" alt="Featured image of post Design of Two-way Wireless Charging System for UAV" /&gt;&lt;p&gt;My paper &amp;ldquo;Design of Two-way Wireless Charging System for UAV&amp;rdquo; has already been presented at Application of IC 🎉.&lt;/p&gt;
+&lt;p&gt;This work is partly funded under College Students&amp;rsquo; Innovative Entrepreneurial Training Plan Program (大学生创新创业训练计划项目 202010058055) from Tiangong University.&lt;/p&gt;
+&lt;p&gt;Abstract: This paper describes the design of a new two-way wireless charging system for unmanned aerial vehicles（UAVs）. The portable design of a single coil is adopted. A single coupling coil can be used as both the transmitting coil and the receiving coil. The system has been tested and can realize wireless charging between UAV and sensor.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;China National Knowledge Infrastructure (CNKI) is Now &lt;a class=&#34;link&#34; href=&#34;https://www.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFD&amp;amp;dbname=CJFDAUTO&amp;amp;filename=JCDL202301011&amp;amp;uniplatform=OVERSEA&amp;amp;v=r2ML4BU7bQQ9utFPx06kRxemcsNMxb4Qw88TksXDcXUwmtk9LSOq5aonQqgOa3Nh&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Available&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+</description>
+        </item>
+        <item>
+        <title>Intelligent agricultural system based on Internet of Things and Cat.1 module</title>
+        <link>https://www.ranzhuoheng.com/intelligent-agricultural-system-based-on-internet-of-things-and-cat.1-module/</link>
+        <pubDate>Tue, 19 Oct 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.ranzhuoheng.com/intelligent-agricultural-system-based-on-internet-of-things-and-cat.1-module/</guid>
+        <description>&lt;img src="https://www.ranzhuoheng.com/intelligent-agricultural-system-based-on-internet-of-things-and-cat.1-module/IEEE.jpg" alt="Featured image of post Intelligent agricultural system based on Internet of Things and Cat.1 module" /&gt;&lt;p&gt;My paper &amp;ldquo;Intelligent agricultural system based on Internet of Things and Cat.1 module&amp;rdquo; has already been presented at Electronic Design Engineering 🎉.&lt;/p&gt;
+&lt;p&gt;Abstract: The traditional greenhouse environmental monitoring equipment is not only poor in controllability,but also difficult to ensure the real-time feedback information and visual data. For example,in some parts of southern China,the planting areas of crops are mostly located in remote mountains,hills and valleys and other areas with poor network signal,making a large number of intelligent devices of the Internet of Things unable to play their due advantages and bring actual benefits to farmers. In this paper,an Intelligent agriculture system of the Internet of Things is designed based on Cat.1 module and the cloud platform of the Internet of Things. After testing,the system can not only realize the real-time visualization function of environmental parameter data,but also intelligently adjust and control the work of agricultural facilities such as floodlights and exhaust fans. It can not only save manpower and material resources,but also reduce power consumption. After large-scale deployment,the system can also improve the production quality of crops in the greenhouses,bringing inestimable economic and environmental value.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;China National Knowledge Infrastructure (CNKI) is Now &lt;a class=&#34;link&#34; href=&#34;https://www.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFD&amp;amp;dbname=CJFDLAST2022&amp;amp;filename=GWDZ202217018&amp;amp;uniplatform=OVERSEA&amp;amp;v=4oAjxSKVoZ3dAIbRGSvIkH_aY3PFjYIQGrmp6vGWyS2_LPnuJWTUKaZSE1DEc8x5&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Available&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+</description>
+        </item>
+        <item>
+        <title>Dissertation (Bachelor)</title>
+        <link>https://www.ranzhuoheng.com/dissertation-bachelor/</link>
+        <pubDate>Thu, 27 May 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.ranzhuoheng.com/dissertation-bachelor/</guid>
+        <description>&lt;img src="https://www.ranzhuoheng.com/dissertation-bachelor/University.jpg" alt="Featured image of post Dissertation (Bachelor)" /&gt;&lt;p&gt;I have been working on designing a practical and dedicated system in my undergraduate degree using hardware, IoT and AI, and now it is being implemented and is available in the links on this page. Although it still has limitations, I have used almost most of the tools and experience I learnt at university. I have also found many ideas in practice that were once too ideal, so it was a good try for me.&lt;/p&gt;
+&lt;p&gt;For this work, I would like to express my gratitude to my undergraduate dissertation supervisor &lt;a class=&#34;link&#34; href=&#34;https://sky.tiangong.edu.cn/2019/0319/c5270a39764/page.htm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Prof. Huiquan Wang&lt;/a&gt;, who is the Associate Dean of the Faculty of Life Sciences in Tiangong University and guided me on how to make a good design. Eventually, this work was awarded the &amp;ldquo;Outstanding Final Project of Tiangong University&amp;rdquo; because of its rich content (140 pages with 0.8% similarity rate) and technical combinations. My earliest journal was accepted when I was in my second year of undergraduate university. I am doing more and gaining experience to target for potential future research positions.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;More information and documents: &lt;a class=&#34;link&#34; href=&#34;https://ranzhuoheng.notion.site/3ca51cd62bb3450aa43c9270b31aef8f?v=b8f436792e90430a95b218d95269d941&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Available&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+</description>
+        </item>
+        <item>
+        <title>Application of NB-IoT Network Based Real-time Environment Monitoring System in Crowdsourcing Mode</title>
+        <link>https://www.ranzhuoheng.com/application-of-nb-iot-network-based-real-time-environment-monitoring-system-in-crowdsourcing-mode/</link>
+        <pubDate>Thu, 25 Jun 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.ranzhuoheng.com/application-of-nb-iot-network-based-real-time-environment-monitoring-system-in-crowdsourcing-mode/</guid>
+        <description>&lt;img src="https://www.ranzhuoheng.com/application-of-nb-iot-network-based-real-time-environment-monitoring-system-in-crowdsourcing-mode/IEEE.jpg" alt="Featured image of post Application of NB-IoT Network Based Real-time Environment Monitoring System in Crowdsourcing Mode" /&gt;&lt;p&gt;My first journal paper &amp;ldquo;Application of NB-IoT Network Based Real-time Environment Monitoring System in Crowdsourcing Mode&amp;rdquo; has already been presented at Telecom Power Technology 🎉.&lt;/p&gt;
+&lt;p&gt;This is my first publication and it was accepted during the second year of my undergraduate degree. It was the beginning of my research on IoT and hardware devices.&lt;/p&gt;
+&lt;p&gt;Abstract: Internet of Things equipment using Narrow Band Internet of Things（NB-IoT） technology usually have many advantages such as low cost,low power consumption and wide coverage. A Big data combining with crowdsourcing model and based on NB-IoT technology of embedded real-time environmental monitoring equipment are analyzed,can be used to warn and forecast natural and man-made disasters to a certain extent at low cost and low power consumption.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;China National Knowledge Infrastructure (CNKI) is Now &lt;a class=&#34;link&#34; href=&#34;https://www.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFD&amp;amp;dbname=CJFDLAST2020&amp;amp;filename=TXDY202012030&amp;amp;uniplatform=OVERSEA&amp;amp;v=quON9ktOqGW48La5d1urrMkELGIBRmyDlZ6ypYCWB7vGXw_gXKvKNU6oBoCJP85w&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Available&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

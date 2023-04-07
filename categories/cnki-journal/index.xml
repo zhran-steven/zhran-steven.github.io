@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>CNKI Journal on Ran Zhuoheng</title>
+        <link>https://www.ranzhuoheng.com/categories/cnki-journal/</link>
+        <description>Recent content in CNKI Journal on Ran Zhuoheng</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Fri, 14 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.ranzhuoheng.com/categories/cnki-journal/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Intelligent environment assistant based on μC/OS-III operating system and OneNET cloud platform</title>
+        <link>https://www.ranzhuoheng.com/intelligent-environment-assistant-based-on-%CE%BCc/os-iii-operating-system-and-onenet-cloud-platform/</link>
+        <pubDate>Fri, 14 Jan 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.ranzhuoheng.com/intelligent-environment-assistant-based-on-%CE%BCc/os-iii-operating-system-and-onenet-cloud-platform/</guid>
+        <description>&lt;img src="https://www.ranzhuoheng.com/intelligent-environment-assistant-based-on-%CE%BCc/os-iii-operating-system-and-onenet-cloud-platform/IEEE.jpg" alt="Featured image of post Intelligent environment assistant based on μC/OS-III operating system and OneNET cloud platform" /&gt;&lt;p&gt;My paper &amp;ldquo;Intelligent environment assistant based on μC/OS-III operating system and OneNET cloud platform&amp;rdquo; has already been presented at Internet of Things Technologies 🎉.&lt;/p&gt;
+&lt;p&gt;Abstract: In recent years, with the popularity of smart home products in many households, system intelligence and data visualization have become the trend of such devices. This paper uses the STM32F103 microprocessor development platform to design a smart environment assistant based on the μC/OS-Ⅲ operating system and China Mobile&amp;rsquo;s OneNET IoT cloud platform. μC/OS series operating system not only has a lightweight kernel, but also has excellent stability. The OneNET IoT cloud platform provides real-time data collection, location awareness and other services. The system collects and displays environmental parameters such as smoke, PM2.5, temperature and humidity on an LCD screen, and also adds the ability to obtain hazard warning counts and travel advice indices. The GSM/GPRS communication module transmits monitoring data and warning and advice information to the OneNET IoT cloud platform via the MQTT transmission protocol. The user can access the information via PC or mobile app, which greatly improves the time and space limitations of traditional environmental monitoring equipment. The system also uses event flag groups to synchronise different tasks and optimises task priority settings, allowing people to focus on key parameters while achieving low power consumption and saving resources in the cloud. The system is not only suitable for monitoring and alarming hazardous gases in indoor environments, but can also be placed on balconies as an assistant for daily travel advice, which is practical and economical. (translated by software)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;China National Knowledge Infrastructure (CNKI) is Now &lt;a class=&#34;link&#34; href=&#34;https://www.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFD&amp;amp;dbname=CJFDLAST2022&amp;amp;filename=WLWJ202201022&amp;amp;uniplatform=OVERSEA&amp;amp;v=inTBg3hcrz39yagfF4aTW5hOxRPqBPJa-eFL0aC6zQNi26yMT6tybfvkINaJsZSs&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Available&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+</description>
+        </item>
+        <item>
+        <title>Design of Two-way Wireless Charging System for UAV</title>
+        <link>https://www.ranzhuoheng.com/design-of-two-way-wireless-charging-system-for-uav/</link>
+        <pubDate>Mon, 10 Jan 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.ranzhuoheng.com/design-of-two-way-wireless-charging-system-for-uav/</guid>
+        <description>&lt;img src="https://www.ranzhuoheng.com/design-of-two-way-wireless-charging-system-for-uav/IEEE.jpg" alt="Featured image of post Design of Two-way Wireless Charging System for UAV" /&gt;&lt;p&gt;My paper &amp;ldquo;Design of Two-way Wireless Charging System for UAV&amp;rdquo; has already been presented at Application of IC 🎉.&lt;/p&gt;
+&lt;p&gt;This work is partly funded under College Students&amp;rsquo; Innovative Entrepreneurial Training Plan Program (大学生创新创业训练计划项目 202010058055) from Tiangong University.&lt;/p&gt;
+&lt;p&gt;Abstract: This paper describes the design of a new two-way wireless charging system for unmanned aerial vehicles（UAVs）. The portable design of a single coil is adopted. A single coupling coil can be used as both the transmitting coil and the receiving coil. The system has been tested and can realize wireless charging between UAV and sensor.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;China National Knowledge Infrastructure (CNKI) is Now &lt;a class=&#34;link&#34; href=&#34;https://www.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFD&amp;amp;dbname=CJFDAUTO&amp;amp;filename=JCDL202301011&amp;amp;uniplatform=OVERSEA&amp;amp;v=r2ML4BU7bQQ9utFPx06kRxemcsNMxb4Qw88TksXDcXUwmtk9LSOq5aonQqgOa3Nh&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Available&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+</description>
+        </item>
+        <item>
+        <title>Intelligent agricultural system based on Internet of Things and Cat.1 module</title>
+        <link>https://www.ranzhuoheng.com/intelligent-agricultural-system-based-on-internet-of-things-and-cat.1-module/</link>
+        <pubDate>Tue, 19 Oct 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.ranzhuoheng.com/intelligent-agricultural-system-based-on-internet-of-things-and-cat.1-module/</guid>
+        <description>&lt;img src="https://www.ranzhuoheng.com/intelligent-agricultural-system-based-on-internet-of-things-and-cat.1-module/IEEE.jpg" alt="Featured image of post Intelligent agricultural system based on Internet of Things and Cat.1 module" /&gt;&lt;p&gt;My paper &amp;ldquo;Intelligent agricultural system based on Internet of Things and Cat.1 module&amp;rdquo; has already been presented at Electronic Design Engineering 🎉.&lt;/p&gt;
+&lt;p&gt;Abstract: The traditional greenhouse environmental monitoring equipment is not only poor in controllability,but also difficult to ensure the real-time feedback information and visual data. For example,in some parts of southern China,the planting areas of crops are mostly located in remote mountains,hills and valleys and other areas with poor network signal,making a large number of intelligent devices of the Internet of Things unable to play their due advantages and bring actual benefits to farmers. In this paper,an Intelligent agriculture system of the Internet of Things is designed based on Cat.1 module and the cloud platform of the Internet of Things. After testing,the system can not only realize the real-time visualization function of environmental parameter data,but also intelligently adjust and control the work of agricultural facilities such as floodlights and exhaust fans. It can not only save manpower and material resources,but also reduce power consumption. After large-scale deployment,the system can also improve the production quality of crops in the greenhouses,bringing inestimable economic and environmental value.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;China National Knowledge Infrastructure (CNKI) is Now &lt;a class=&#34;link&#34; href=&#34;https://www.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFD&amp;amp;dbname=CJFDLAST2022&amp;amp;filename=GWDZ202217018&amp;amp;uniplatform=OVERSEA&amp;amp;v=4oAjxSKVoZ3dAIbRGSvIkH_aY3PFjYIQGrmp6vGWyS2_LPnuJWTUKaZSE1DEc8x5&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Available&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+</description>
+        </item>
+        <item>
+        <title>Application of NB-IoT Network Based Real-time Environment Monitoring System in Crowdsourcing Mode</title>
+        <link>https://www.ranzhuoheng.com/application-of-nb-iot-network-based-real-time-environment-monitoring-system-in-crowdsourcing-mode/</link>
+        <pubDate>Thu, 25 Jun 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.ranzhuoheng.com/application-of-nb-iot-network-based-real-time-environment-monitoring-system-in-crowdsourcing-mode/</guid>
+        <description>&lt;img src="https://www.ranzhuoheng.com/application-of-nb-iot-network-based-real-time-environment-monitoring-system-in-crowdsourcing-mode/IEEE.jpg" alt="Featured image of post Application of NB-IoT Network Based Real-time Environment Monitoring System in Crowdsourcing Mode" /&gt;&lt;p&gt;My first journal paper &amp;ldquo;Application of NB-IoT Network Based Real-time Environment Monitoring System in Crowdsourcing Mode&amp;rdquo; has already been presented at Telecom Power Technology 🎉.&lt;/p&gt;
+&lt;p&gt;This is my first publication and it was accepted during the second year of my undergraduate degree. It was the beginning of my research on IoT and hardware devices.&lt;/p&gt;
+&lt;p&gt;Abstract: Internet of Things equipment using Narrow Band Internet of Things（NB-IoT） technology usually have many advantages such as low cost,low power consumption and wide coverage. A Big data combining with crowdsourcing model and based on NB-IoT technology of embedded real-time environmental monitoring equipment are analyzed,can be used to warn and forecast natural and man-made disasters to a certain extent at low cost and low power consumption.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;China National Knowledge Infrastructure (CNKI) is Now &lt;a class=&#34;link&#34; href=&#34;https://www.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFD&amp;amp;dbname=CJFDLAST2020&amp;amp;filename=TXDY202012030&amp;amp;uniplatform=OVERSEA&amp;amp;v=quON9ktOqGW48La5d1urrMkELGIBRmyDlZ6ypYCWB7vGXw_gXKvKNU6oBoCJP85w&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Available&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>μC/OS-Ⅲ on Ran Zhuoheng</title>
+        <link>https://www.ranzhuoheng.com/tags/%CE%BCc/os-/</link>
+        <description>Recent content in μC/OS-Ⅲ on Ran Zhuoheng</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language><atom:link href="https://www.ranzhuoheng.com/tags/%CE%BCc/os-/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Intelligent environment assistant based on μC/OS-III operating system and OneNET cloud platform</title>
+        <link>https://www.ranzhuoheng.com/intelligent-environment-assistant-based-on-%CE%BCc/os-iii-operating-system-and-onenet-cloud-platform/</link>
+        <pubDate>Fri, 14 Jan 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.ranzhuoheng.com/intelligent-environment-assistant-based-on-%CE%BCc/os-iii-operating-system-and-onenet-cloud-platform/</guid>
+        <description>&lt;img src="https://www.ranzhuoheng.com/intelligent-environment-assistant-based-on-%CE%BCc/os-iii-operating-system-and-onenet-cloud-platform/IEEE.jpg" alt="Featured image of post Intelligent environment assistant based on μC/OS-III operating system and OneNET cloud platform" /&gt;&lt;p&gt;My paper &amp;ldquo;Intelligent environment assistant based on μC/OS-III operating system and OneNET cloud platform&amp;rdquo; has already been presented at Internet of Things Technologies 🎉.&lt;/p&gt;
+&lt;p&gt;Abstract: In recent years, with the popularity of smart home products in many households, system intelligence and data visualization have become the trend of such devices. This paper uses the STM32F103 microprocessor development platform to design a smart environment assistant based on the μC/OS-Ⅲ operating system and China Mobile&amp;rsquo;s OneNET IoT cloud platform. μC/OS series operating system not only has a lightweight kernel, but also has excellent stability. The OneNET IoT cloud platform provides real-time data collection, location awareness and other services. The system collects and displays environmental parameters such as smoke, PM2.5, temperature and humidity on an LCD screen, and also adds the ability to obtain hazard warning counts and travel advice indices. The GSM/GPRS communication module transmits monitoring data and warning and advice information to the OneNET IoT cloud platform via the MQTT transmission protocol. The user can access the information via PC or mobile app, which greatly improves the time and space limitations of traditional environmental monitoring equipment. The system also uses event flag groups to synchronise different tasks and optimises task priority settings, allowing people to focus on key parameters while achieving low power consumption and saving resources in the cloud. The system is not only suitable for monitoring and alarming hazardous gases in indoor environments, but can also be placed on balconies as an assistant for daily travel advice, which is practical and economical. (translated by software)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;China National Knowledge Infrastructure (CNKI) is Now &lt;a class=&#34;link&#34; href=&#34;https://www.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFD&amp;amp;dbname=CJFDLAST2022&amp;amp;filename=WLWJ202201022&amp;amp;uniplatform=OVERSEA&amp;amp;v=inTBg3hcrz39yagfF4aTW5hOxRPqBPJa-eFL0aC6zQNi26yMT6tybfvkINaJsZSs&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Available&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

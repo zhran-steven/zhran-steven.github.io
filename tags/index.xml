@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Tags on Ran Zhuoheng (Steven)</title>
+        <title>Tags on Ran Zhuoheng</title>
         <link>https://www.ranzhuoheng.com/tags/</link>
-        <description>Recent content in Tags on Ran Zhuoheng (Steven)</description>
+        <description>Recent content in Tags on Ran Zhuoheng</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <lastBuildDate>Thu, 30 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.ranzhuoheng.com/tags/index.xml" rel="self" type="application/rss+xml" /><item>
@@ -103,7 +103,7 @@
         <description></description>
         </item>
         <item>
-        <title>Watermarking</title>
+        <title>watermarking</title>
         <link>https://www.ranzhuoheng.com/tags/watermarking/</link>
         <pubDate>Tue, 03 Jan 2023 00:00:00 +0000</pubDate>
         
@@ -143,19 +143,195 @@
         <description></description>
         </item>
         <item>
-        <title>Dissertation (Bachelor)</title>
-        <link>https://www.ranzhuoheng.com/tags/dissertation-bachelor/</link>
-        <pubDate>Wed, 27 Oct 2021 00:00:00 +0000</pubDate>
+        <title>Base Station Positioning</title>
+        <link>https://www.ranzhuoheng.com/tags/base-station-positioning/</link>
+        <pubDate>Fri, 14 Jan 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://www.ranzhuoheng.com/tags/dissertation-bachelor/</guid>
+        <guid>https://www.ranzhuoheng.com/tags/base-station-positioning/</guid>
         <description></description>
         </item>
         <item>
-        <title>Outcomes (Bachelor)</title>
-        <link>https://www.ranzhuoheng.com/tags/outcomes-bachelor/</link>
-        <pubDate>Wed, 27 Oct 2021 00:00:00 +0000</pubDate>
+        <title>Embedded Operating System</title>
+        <link>https://www.ranzhuoheng.com/tags/embedded-operating-system/</link>
+        <pubDate>Fri, 14 Jan 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://www.ranzhuoheng.com/tags/outcomes-bachelor/</guid>
+        <guid>https://www.ranzhuoheng.com/tags/embedded-operating-system/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Environmental Monitoring System</title>
+        <link>https://www.ranzhuoheng.com/tags/environmental-monitoring-system/</link>
+        <pubDate>Fri, 14 Jan 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.ranzhuoheng.com/tags/environmental-monitoring-system/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>GPRS</title>
+        <link>https://www.ranzhuoheng.com/tags/gprs/</link>
+        <pubDate>Fri, 14 Jan 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.ranzhuoheng.com/tags/gprs/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>MQTT</title>
+        <link>https://www.ranzhuoheng.com/tags/mqtt/</link>
+        <pubDate>Fri, 14 Jan 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.ranzhuoheng.com/tags/mqtt/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>OneNET Cloud Platform</title>
+        <link>https://www.ranzhuoheng.com/tags/onenet-cloud-platform/</link>
+        <pubDate>Fri, 14 Jan 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.ranzhuoheng.com/tags/onenet-cloud-platform/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>coil coupling</title>
+        <link>https://www.ranzhuoheng.com/tags/coil-coupling/</link>
+        <pubDate>Mon, 10 Jan 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.ranzhuoheng.com/tags/coil-coupling/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>two-way wireless charging</title>
+        <link>https://www.ranzhuoheng.com/tags/two-way-wireless-charging/</link>
+        <pubDate>Mon, 10 Jan 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.ranzhuoheng.com/tags/two-way-wireless-charging/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>wireless sensing</title>
+        <link>https://www.ranzhuoheng.com/tags/wireless-sensing/</link>
+        <pubDate>Mon, 10 Jan 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.ranzhuoheng.com/tags/wireless-sensing/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Cat.1</title>
+        <link>https://www.ranzhuoheng.com/tags/cat.1/</link>
+        <pubDate>Tue, 19 Oct 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.ranzhuoheng.com/tags/cat.1/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>cloud platform for Internet of Things</title>
+        <link>https://www.ranzhuoheng.com/tags/cloud-platform-for-internet-of-things/</link>
+        <pubDate>Tue, 19 Oct 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.ranzhuoheng.com/tags/cloud-platform-for-internet-of-things/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>GSM</title>
+        <link>https://www.ranzhuoheng.com/tags/gsm/</link>
+        <pubDate>Tue, 19 Oct 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.ranzhuoheng.com/tags/gsm/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>intelligent agriculture</title>
+        <link>https://www.ranzhuoheng.com/tags/intelligent-agriculture/</link>
+        <pubDate>Tue, 19 Oct 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.ranzhuoheng.com/tags/intelligent-agriculture/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>LTE network</title>
+        <link>https://www.ranzhuoheng.com/tags/lte-network/</link>
+        <pubDate>Tue, 19 Oct 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.ranzhuoheng.com/tags/lte-network/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>NB-IoT</title>
+        <link>https://www.ranzhuoheng.com/tags/nb-iot/</link>
+        <pubDate>Tue, 19 Oct 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.ranzhuoheng.com/tags/nb-iot/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Infrared Temperature Measurement</title>
+        <link>https://www.ranzhuoheng.com/tags/infrared-temperature-measurement/</link>
+        <pubDate>Thu, 27 May 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.ranzhuoheng.com/tags/infrared-temperature-measurement/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>LinuxKernel</title>
+        <link>https://www.ranzhuoheng.com/tags/linuxkernel/</link>
+        <pubDate>Thu, 27 May 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.ranzhuoheng.com/tags/linuxkernel/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Mask Detection</title>
+        <link>https://www.ranzhuoheng.com/tags/mask-detection/</link>
+        <pubDate>Thu, 27 May 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.ranzhuoheng.com/tags/mask-detection/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>OpenCV</title>
+        <link>https://www.ranzhuoheng.com/tags/opencv/</link>
+        <pubDate>Thu, 27 May 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.ranzhuoheng.com/tags/opencv/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>big data</title>
+        <link>https://www.ranzhuoheng.com/tags/big-data/</link>
+        <pubDate>Thu, 25 Jun 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.ranzhuoheng.com/tags/big-data/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>crowdsourcing</title>
+        <link>https://www.ranzhuoheng.com/tags/crowdsourcing/</link>
+        <pubDate>Thu, 25 Jun 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.ranzhuoheng.com/tags/crowdsourcing/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>B60L53/12</title>
+        <link>https://www.ranzhuoheng.com/tags/b60l53/12/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.ranzhuoheng.com/tags/b60l53/12/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>B60L53/122</title>
+        <link>https://www.ranzhuoheng.com/tags/b60l53/122/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.ranzhuoheng.com/tags/b60l53/122/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>G05D1/10</title>
+        <link>https://www.ranzhuoheng.com/tags/g05d1/10/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.ranzhuoheng.com/tags/g05d1/10/</guid>
         <description></description>
         </item>
         <item>
@@ -164,6 +340,14 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://www.ranzhuoheng.com/tags/pet/mri/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>μC/OS-Ⅲ</title>
+        <link>https://www.ranzhuoheng.com/tags/%CE%BCc/os-/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.ranzhuoheng.com/tags/%CE%BCc/os-/</guid>
         <description></description>
         </item>
         

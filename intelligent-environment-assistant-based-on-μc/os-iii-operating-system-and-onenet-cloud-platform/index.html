@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+    <head>
+        <link href="https://www.ranzhuoheng.com/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='My paper &amp;ldquo;Intelligent environment assistant based on μC/OS-III operating system and OneNET cloud platform&amp;rdquo; has already been presented at Internet of Things Technologies 🎉.
+Abstract: In recent years, with the popularity of smart home products in many households, system intelligence and data visualization have become the trend of such devices. This paper uses the STM32F103 microprocessor development platform to design a smart environment assistant based on the μC/OS-Ⅲ operating system and China Mobile&amp;rsquo;s OneNET IoT cloud platform.'><title>Intelligent environment assistant based on μC/OS-III operating system and OneNET cloud platform</title>
+
+<link rel='canonical' href='https://www.ranzhuoheng.com/intelligent-environment-assistant-based-on-%CE%BCc/os-iii-operating-system-and-onenet-cloud-platform/'>
+
+<link rel="stylesheet" href="/scss/style.min.450926226e724574a6b936335ea06111f8aeb253d932c86cb2cc807341cd2889.css"><meta property='og:title' content='Intelligent environment assistant based on μC/OS-III operating system and OneNET cloud platform'>
+<meta property='og:description' content='My paper &amp;ldquo;Intelligent environment assistant based on μC/OS-III operating system and OneNET cloud platform&amp;rdquo; has already been presented at Internet of Things Technologies 🎉.
+Abstract: In recent years, with the popularity of smart home products in many households, system intelligence and data visualization have become the trend of such devices. This paper uses the STM32F103 microprocessor development platform to design a smart environment assistant based on the μC/OS-Ⅲ operating system and China Mobile&amp;rsquo;s OneNET IoT cloud platform.'>
+<meta property='og:url' content='https://www.ranzhuoheng.com/intelligent-environment-assistant-based-on-%CE%BCc/os-iii-operating-system-and-onenet-cloud-platform/'>
+<meta property='og:site_name' content='Ran Zhuoheng'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Embedded Operating System' /><meta property='article:tag' content='OneNET Cloud Platform' /><meta property='article:tag' content='Environmental Monitoring System' /><meta property='article:tag' content='Base Station Positioning' /><meta property='article:tag' content='μC/OS-Ⅲ' /><meta property='article:tag' content='MQTT' /><meta property='article:tag' content='GPRS' /><meta property='article:published_time' content='2022-01-14T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2022-01-14T00:00:00&#43;00:00'/><meta property='og:image' content='https://www.ranzhuoheng.com/intelligent-environment-assistant-based-on-%CE%BCc/os-iii-operating-system-and-onenet-cloud-platform/IEEE.jpg' />
+<meta name="twitter:title" content="Intelligent environment assistant based on μC/OS-III operating system and OneNET cloud platform">
+<meta name="twitter:description" content="My paper &amp;ldquo;Intelligent environment assistant based on μC/OS-III operating system and OneNET cloud platform&amp;rdquo; has already been presented at Internet of Things Technologies 🎉.
+Abstract: In recent years, with the popularity of smart home products in many households, system intelligence and data visualization have become the trend of such devices. This paper uses the STM32F103 microprocessor development platform to design a smart environment assistant based on the μC/OS-Ⅲ operating system and China Mobile&amp;rsquo;s OneNET IoT cloud platform."><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://www.ranzhuoheng.com/intelligent-environment-assistant-based-on-%CE%BCc/os-iii-operating-system-and-onenet-cloud-platform/IEEE.jpg' />
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C6F9YGRN9K"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-C6F9YGRN9K', { 'anonymize_ip': false });
+}
+</script>
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "dark");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu8b2070cdad9e6a4568984cced67d108f_1129609_300x0_resize_q75_box.jpg" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🟢</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Ran Zhuoheng</a></h1>
+            <h2 class="site-description">My Academic Centre for IoT and Security Systems</h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://koalendar.com/e/meet-with-zhuoheng'
+                        target="_blank"
+                        title="Booking"
+                    >
+                        
+                        
+                            <svg t="1668347455588" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3276" width="300" height="300"><path d="M883.456 426.02496V244.15744c0-85.29408-69.12512-154.42432-154.42432-154.42432h-16.67072v-36.93568c0-21.28896-17.26464-38.5536-38.62016-38.5536a38.5536 38.5536 0 0 0-38.5536 38.5536v36.93568H274.88768v-36.93568c0-21.28896-17.3312-38.5536-38.62016-38.5536-21.36064 0-38.62016 17.26464-38.62016 38.5536v36.93568H162.8672c-85.2992 0-154.42432 69.13024-154.42432 154.42432v591.89248c0 85.29408 69.12512 154.4192 154.42432 154.4192h293.72928a38.58432 38.58432 0 0 0 49.8944-36.93568c0-19.05152-13.83424-34.8928-32.04608-38.02112a9.10336 9.10336 0 0 0-1.35168-0.59904c-11.72992-3.81952-310.2208-1.68448-310.2208-1.68448-42.57792 0-77.17376-34.60096-77.17376-77.17888v-410.0608h768.19968M162.8672 166.90688h34.78016v66.03264a38.58432 38.58432 0 0 0 38.62016 38.62016 38.6304 38.6304 0 0 0 38.62016-38.62016V166.90688h360.29952v66.03264c0 21.36064 17.26464 38.62016 38.5536 38.62016a38.58432 38.58432 0 0 0 38.62016-38.62016V166.90688h16.67072c42.57792 0 77.24544 34.66752 77.24544 77.24544v104.58624H85.68832V244.15744c0-42.57792 34.60096-77.25056 77.17888-77.25056z" p-id="3277" fill="#e6e6e6"></path><path d="M763.81184 477.44c-142.13632 0-257.32608 115.2512-257.32608 257.32608 0 142.13632 115.18464 257.39264 257.32608 257.39264 142.13632 0 257.39264-115.2512 257.39264-257.39264 0-142.07488-115.2512-257.32608-257.39264-257.32608z m0 437.46816c-99.28192 0-180.1472-80.7936-180.1472-180.1472 0-99.29216 80.86016-180.08064 180.1472-180.08064 99.3536 0 180.1472 80.78848 180.1472 180.08064 0 99.3536-80.78848 180.1472-180.1472 180.1472z" p-id="3278" fill="#e6e6e6"></path><path d="M841.05728 760.55552h-77.24544V683.3152a25.74848 25.74848 0 0 0-25.72288-25.73312 25.7536 25.7536 0 0 0-25.728 25.73312v102.96832a25.74336 25.74336 0 0 0 25.728 25.728h102.96832a25.74848 25.74848 0 0 0 25.728-25.728 25.74848 25.74848 0 0 0-25.728-25.728zM352.06656 528.89088h-154.4192a25.75872 25.75872 0 0 0 0 51.51744h154.42432a25.74336 25.74336 0 0 0 25.72288-25.728 25.75872 25.75872 0 0 0-25.728-25.78944zM352.06656 709.03296h-154.4192a25.76384 25.76384 0 0 0-25.728 25.79968 25.74336 25.74336 0 0 0 25.728 25.72288h154.42432a25.73824 25.73824 0 0 0 25.72288-25.72288 25.76384 25.76384 0 0 0-25.728-25.79968z" p-id="3279" fill="#e6e6e6"></path></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.linkedin.com/in/zhran-steven/'
+                        target="_blank"
+                        title="Linkedin"
+                    >
+                        
+                        
+                            <svg t="1668180768949" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="6147" width="300" height="300"><path d="M272.566857 357.156571V923.428571H84.004571V357.156571h188.562286z m11.995429-174.884571c0.585143 54.272-40.557714 97.718857-106.276572 97.718857h-1.133714C113.737143 279.990857 73.142857 236.544 73.142857 182.272c0-55.442286 42.276571-97.718857 106.276572-97.718857 64.585143 0 104.557714 42.276571 105.142857 97.718857zM950.857143 598.857143v324.571428h-188.013714v-302.848c0-75.995429-27.428571-128-95.414858-128-52.004571 0-82.870857 34.852571-96.585142 68.571429-4.571429 12.580571-6.290286 29.147429-6.290286 46.299429v316.013714H376.539429c2.304-513.133714 0-566.272 0-566.272h188.013714v82.285714h-1.133714c24.576-38.838857 69.156571-95.414857 170.861714-95.414857 124.013714 0 216.576 81.152 216.576 254.866286z" fill="#1296db" p-id="6148"></path></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='mailto:zr1u21@soton.ac.uk'
+                        target="_blank"
+                        title="Mail"
+                    >
+                        
+                        
+                            <?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg t="1653928708896" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="11220" width="300" height="300" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><style type="text/css">@font-face { font-family: feedback-iconfont; src: url("//at.alicdn.com/t/font_1031158_u69w8yhxdu.woff2?t=1630033759944") format("woff2"), url("//at.alicdn.com/t/font_1031158_u69w8yhxdu.woff?t=1630033759944") format("woff"), url("//at.alicdn.com/t/font_1031158_u69w8yhxdu.ttf?t=1630033759944") format("truetype"); }
+</style></defs><path d="M874.666667 181.333333H149.333333c-40.533333 0-74.666667 34.133333-74.666666 74.666667v512c0 40.533333 34.133333 74.666667 74.666666 74.666667h725.333334c40.533333 0 74.666667-34.133333 74.666666-74.666667V256c0-40.533333-34.133333-74.666667-74.666666-74.666667z m-725.333334 64h725.333334c6.4 0 10.666667 4.266667 10.666666 10.666667v25.6L512 516.266667l-373.333333-234.666667V256c0-6.4 4.266667-10.666667 10.666666-10.666667z m725.333334 533.333334H149.333333c-6.4 0-10.666667-4.266667-10.666666-10.666667V356.266667l356.266666 224c4.266667 4.266667 10.666667 4.266667 17.066667 4.266666s12.8-2.133333 17.066667-4.266666l356.266666-224V768c0 6.4-4.266667 10.666667-10.666666 10.666667z" p-id="11221" fill="#efb336"></path></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://orcid.org/0000-0002-0446-6276'
+                        target="_blank"
+                        title="ORCID"
+                    >
+                        
+                        
+                            <svg t="1668180818876" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="6574" width="300" height="300"><path d="M589.5 376.38h-91.84V684h94.94c135.24 0 166.24-102.68 166.24-153.82 0-83.28-53.08-153.8-169.34-153.8zM512 16C238 16 16 238 16 512s222 496 496 496 496-222 496-496S786 16 512 16z m-161.58 721.52h-59.68v-415h59.68z m-29.84-462.28a39.14 39.14 0 1 1 39.14-39.14 39.28 39.28 0 0 1-39.14 39.14zM600 738h-162V322.52h161.2c153.46 0 220.88 109.66 220.88 207.7C820 636.78 736.76 738 600 738z" p-id="6575" fill="#1afa29"></path></svg>
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/about-me/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About Me</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/excellence-research/' >
+                
+                
+                
+                    <?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg t="1668357592093" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="7173" width="300" height="300" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M781.186088 616.031873q17.338645 80.573705 30.59761 145.848606 6.119522 27.537849 11.219124 55.075697t9.689243 49.976096 7.649402 38.247012 4.079681 19.888446q3.059761 20.398406-9.179283 27.027888t-27.537849 6.629482q-5.099602 0-14.788845-3.569721t-14.788845-5.609562l-266.199203-155.027888q-72.414343 42.836653-131.569721 76.494024-25.498008 14.278884-50.486056 28.557769t-45.386454 26.517928-35.187251 20.398406-19.888446 10.199203q-10.199203 5.099602-20.908367 3.569721t-19.378486-7.649402-12.749004-14.788845-2.039841-17.848606q1.01992-4.079681 5.099602-19.888446t9.179283-37.737052 11.729084-48.446215 13.768924-54.055777q15.298805-63.23506 34.677291-142.788845-60.175299-52.015936-108.111554-92.812749-20.398406-17.338645-40.286853-34.167331t-35.697211-30.59761-26.007968-22.438247-11.219124-9.689243q-12.239044-11.219124-20.908367-24.988048t-6.629482-28.047809 11.219124-22.438247 20.398406-10.199203l315.155378-28.557769 117.290837-273.338645q6.119522-16.318725 17.338645-28.047809t30.59761-11.729084q10.199203 0 17.848606 4.589641t12.749004 10.709163 8.669323 12.239044 5.609562 10.199203l114.231076 273.338645 315.155378 29.577689q20.398406 5.099602 28.557769 12.239044t8.159363 22.438247q0 14.278884-8.669323 24.988048t-21.928287 26.007968z" p-id="7174" fill="#f4ea2a"></path></svg>
+                
+                <span>Excellence Research</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Timeline</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>Dark Mode</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+<main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/intelligent-environment-assistant-based-on-%CE%BCc/os-iii-operating-system-and-onenet-cloud-platform/">
+                <img src="/intelligent-environment-assistant-based-on-%CE%BCc/os-iii-operating-system-and-onenet-cloud-platform/IEEE_hub8b9877b502abf49b154f81a7d19107d_113847_800x0_resize_q75_box.jpg"
+                        srcset="/intelligent-environment-assistant-based-on-%CE%BCc/os-iii-operating-system-and-onenet-cloud-platform/IEEE_hub8b9877b502abf49b154f81a7d19107d_113847_800x0_resize_q75_box.jpg 800w, /intelligent-environment-assistant-based-on-%CE%BCc/os-iii-operating-system-and-onenet-cloud-platform/IEEE_hub8b9877b502abf49b154f81a7d19107d_113847_1600x0_resize_q75_box.jpg 1600w"
+                        width="800" 
+                        height="316" 
+                        loading="lazy"
+                        alt="Featured image of post Intelligent environment assistant based on μC/OS-III operating system and OneNET cloud platform" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/bachelors-degree/" >
+                Bachelor&#39;s degree
+            </a>
+        
+            <a href="/categories/cnki-journal/" >
+                CNKI Journal
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/intelligent-environment-assistant-based-on-%CE%BCc/os-iii-operating-system-and-onenet-cloud-platform/">Intelligent environment assistant based on μC/OS-III operating system and OneNET cloud platform</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Jan 14, 2022</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    2 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>My paper &ldquo;Intelligent environment assistant based on μC/OS-III operating system and OneNET cloud platform&rdquo; has already been presented at Internet of Things Technologies 🎉.</p>
+<p>Abstract: In recent years, with the popularity of smart home products in many households, system intelligence and data visualization have become the trend of such devices. This paper uses the STM32F103 microprocessor development platform to design a smart environment assistant based on the μC/OS-Ⅲ operating system and China Mobile&rsquo;s OneNET IoT cloud platform. μC/OS series operating system not only has a lightweight kernel, but also has excellent stability. The OneNET IoT cloud platform provides real-time data collection, location awareness and other services. The system collects and displays environmental parameters such as smoke, PM2.5, temperature and humidity on an LCD screen, and also adds the ability to obtain hazard warning counts and travel advice indices. The GSM/GPRS communication module transmits monitoring data and warning and advice information to the OneNET IoT cloud platform via the MQTT transmission protocol. The user can access the information via PC or mobile app, which greatly improves the time and space limitations of traditional environmental monitoring equipment. The system also uses event flag groups to synchronise different tasks and optimises task priority settings, allowing people to focus on key parameters while achieving low power consumption and saving resources in the cloud. The system is not only suitable for monitoring and alarming hazardous gases in indoor environments, but can also be placed on balconies as an assistant for daily travel advice, which is practical and economical. (translated by software)</p>
+<blockquote>
+<p>China National Knowledge Infrastructure (CNKI) is Now <a class="link" href="https://www.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFD&amp;dbname=CJFDLAST2022&amp;filename=WLWJ202201022&amp;uniplatform=OVERSEA&amp;v=inTBg3hcrz39yagfF4aTW5hOxRPqBPJa-eFL0aC6zQNi26yMT6tybfvkINaJsZSs"  target="_blank" rel="noopener"
+    >Available</a></p>
+</blockquote>
+<hr>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/embedded-operating-system/">Embedded Operating System</a>
+        
+            <a href="/tags/onenet-cloud-platform/">OneNET Cloud Platform</a>
+        
+            <a href="/tags/environmental-monitoring-system/">Environmental Monitoring System</a>
+        
+            <a href="/tags/base-station-positioning/">Base Station Positioning</a>
+        
+            <a href="/tags/%CE%BCc/os-/">μC/OS-Ⅲ</a>
+        
+            <a href="/tags/mqtt/">MQTT</a>
+        
+            <a href="/tags/gprs/">GPRS</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->This work is licensed under a <!-- raw HTML omitted -->Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License<!-- raw HTML omitted -->.</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-contents--wrapper">
+    <h2 class="section-title">Related contents</h2>
+    <div class="related-contents">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/design-of-two-way-wireless-charging-system-for-uav/">
+        
+        
+            <div class="article-image">
+                <img src="/design-of-two-way-wireless-charging-system-for-uav/IEEE.d2bc0e9e4fe0f4af4097b7bbe63695b2_hub8b9877b502abf49b154f81a7d19107d_113847_250x150_fill_q75_box_smart1.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Design of Two-way Wireless Charging System for UAV"
+                        
+                        data-hash="md5-0rwOnk/g9K9Al7e75jaVsg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Design of Two-way Wireless Charging System for UAV</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="has-image">
+    <a href="/intelligent-agricultural-system-based-on-internet-of-things-and-cat.1-module/">
+        
+        
+            <div class="article-image">
+                <img src="/intelligent-agricultural-system-based-on-internet-of-things-and-cat.1-module/IEEE.d2bc0e9e4fe0f4af4097b7bbe63695b2_hub8b9877b502abf49b154f81a7d19107d_113847_250x150_fill_q75_box_smart1.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Intelligent agricultural system based on Internet of Things and Cat.1 module"
+                        
+                        data-hash="md5-0rwOnk/g9K9Al7e75jaVsg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Intelligent agricultural system based on Internet of Things and Cat.1 module</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="has-image">
+    <a href="/application-of-nb-iot-network-based-real-time-environment-monitoring-system-in-crowdsourcing-mode/">
+        
+        
+            <div class="article-image">
+                <img src="/application-of-nb-iot-network-based-real-time-environment-monitoring-system-in-crowdsourcing-mode/IEEE.d2bc0e9e4fe0f4af4097b7bbe63695b2_hub8b9877b502abf49b154f81a7d19107d_113847_250x150_fill_q75_box_smart1.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Application of NB-IoT Network Based Real-time Environment Monitoring System in Crowdsourcing Mode"
+                        
+                        data-hash="md5-0rwOnk/g9K9Al7e75jaVsg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Application of NB-IoT Network Based Real-time Environment Monitoring System in Crowdsourcing Mode</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="has-image">
+    <a href="/dissertation-bachelor/">
+        
+        
+            <div class="article-image">
+                <img src="/dissertation-bachelor/University.45558ac2be822ee52502715834ef23ec_hua1da546c3404d0d62579ab9bfdc6a1c2_31770_250x150_fill_q75_box_smart1.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Dissertation (Bachelor)"
+                        
+                        data-hash="md5-RVWKwr6CLuUlAnFYNO8j7A==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Dissertation (Bachelor)</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="has-image">
+    <a href="/%E4%B8%80%E7%A7%8D%E6%97%A0%E4%BA%BA%E6%9C%BA%E7%BB%84%E5%8F%8C%E5%90%91%E6%97%A0%E7%BA%BF%E5%85%85%E7%94%B5%E7%B3%BB%E7%BB%9F%E5%8F%8A%E5%85%B6%E8%B7%AF%E5%BE%84%E8%A7%84%E5%88%92%E8%AE%BE%E8%AE%A1-patent-number-cn202210525770.2/">
+        
+        
+            <div class="article-image">
+                <img src="/%E4%B8%80%E7%A7%8D%E6%97%A0%E4%BA%BA%E6%9C%BA%E7%BB%84%E5%8F%8C%E5%90%91%E6%97%A0%E7%BA%BF%E5%85%85%E7%94%B5%E7%B3%BB%E7%BB%9F%E5%8F%8A%E5%85%B6%E8%B7%AF%E5%BE%84%E8%A7%84%E5%88%92%E8%AE%BE%E8%AE%A1-patent-number-cn202210525770.2/IEEE.45558ac2be822ee52502715834ef23ec_hua1da546c3404d0d62579ab9bfdc6a1c2_31770_250x150_fill_q75_box_smart1.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 一种无人机组双向无线充电系统及其路径规划设计 (Patent Number: CN202210525770.2)"
+                        
+                        data-hash="md5-RVWKwr6CLuUlAnFYNO8j7A==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">一种无人机组双向无线充电系统及其路径规划设计 (Patent Number: CN202210525770.2)</h2>
+        </div>
+    </a>
+</article>
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2021 - 
+        
+        2023 Ran Zhuoheng
+    </section>
+    
+    <section class="powerby">
+
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo by Stack</a> <br />
+        
+        Powered by <a href="https://www.huaweicloud.com/" target="_blank" rel="noopener">HUAWEI Cloud</a> <a href="https://www.huaweicloud.com/" target="_blank" rel="noopener"><svg t="1654049877282" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="18630" width="20" height="20"><path d="M381.3 30.42a227.78 227.78 0 0 1 60.51-13.11c21.19 31.26 28.24 69.08 39.33 104.88 7.57 39.33 13.62 78.66 14.63 118.5 5 27.73 2 55.46 3 83.7 1.52 25.21-2 50.43-1 76.14 1 35.3-4 70.6-3.53 106.4-5 22.69-1 46.39-8.06 68.58-8.58-4.54-12.61-13.62-18.16-21.18-39.83-59-76.64-119.51-110.93-181.53-32.78-65.55-67.57-133.63-70.6-208.25-2.49-59 39.35-115.48 94.81-134.13z m207.25-10.09c5-3 10.59 0.5 16.13 1 27.23 6.05 56.48 10.08 79.68 27.73 21.68 18.16 41.85 39.84 49.92 67.57 11.59 33.28 7.06 69.59 0 103.37-10.09 42.86-29.25 83.2-48.41 123-6 12.1-14.62 23.2-20.17 35.8-11.09 24.71-25.72 47.9-39.84 70.6-22.18 38.32-46.89 74.62-71.1 111.44-3.53 4-8.06 14.11-14.11 7.56-4-40.85-7.06-81.19-8.58-122-5.54-51.94-2.52-104.38-3-156.82 3.53-34.79 4-69.59 8.07-103.88 8.06-40.84 13.61-82.19 26.22-122 9.07-13.62 10.59-33.79 25.21-43.37z m-421 131.11c5.55-2.53 8.07 4.53 11.6 7.56a2305.54 2305.54 0 0 1 251.06 402.39c5.55 11.6 12.61 23.19 13.62 36.31-12.61-3-23.2-9.59-34.79-15.13a2115.66 2115.66 0 0 1-188.59-107.91c-22.69-16.14-45.89-31.77-66.06-50.93-40.34-28.24-68.07-76.14-64.54-126.06 4-57.49 39.83-105.89 77.65-146.23z m687.8-0.51h8.06c18.16 23.7 39.34 45.89 52.45 73.12C929.93 248.76 937 277 939 305.23c-1.51 31.26-11.6 63.54-32.27 87.74-13.61 12.1-24.2 26.73-38.32 37.31-75.14 59.51-159.85 105.9-245.07 150.27-12.6 6.56-24.71 15.63-38.83 17.15 2.53-17.65 13.12-31.77 20.17-47.91a2240 2240 0 0 1 201.2-331.29c15.63-22.69 33.78-44.37 49.42-67.57z m-833 265.24c2-4 1.51-11.1 7.06-12.11 10.08 2 18.65 8.58 27.73 13.62 120.52 65.55 240.53 132.62 356 206.74 4 2 6.05 6.05 7.56 10.59-76.14 1-152.28 1-227.92 0.5-45.88 0.51-89.75-20.67-122-52.44C43 552.82 21.77 514.49 19.25 472.64c0-18.66-2-37.82 3-56.47z m957.57-3.53c7.56-4.54 15.12-9.08 24.2-8.07 1.51 17.65 5 35.3 5.55 52.94-3 21.69-2.52 44.38-12.11 64.55-8.06 17.65-16.13 35.8-30.25 49.41-15.13 14.12-27.73 31.27-46.9 40.34-21.17 16.14-48.4 21.18-74.62 22.7-79.68 0.5-159.85 0.5-239.52 0 2-4 4-7.57 8.07-9.59 118.49-76.14 242-144.71 365.58-212.28zM192.71 667.79c42.87-4.54 86.23-0.51 129.09-5.55 30.76-1 61.52-2.52 91.77 0-8.06 13.11-22.69 19.16-34.28 27.73a721.31 721.31 0 0 1-102.37 61c-35.29 17.65-79.67 11.09-109.92-13.62-24.71-17.14-41.86-41.85-58-66.56 27.73-3.53 56-1 83.7-3z m421.05-5.55c30.26-2 61-1 91.77 0.5 41.35 4.54 83.71 0.51 125.06 5 29.24 2.52 58.49 0 87.74 3.53-10.09 21.17-25.72 39.33-42.86 55.46-26.22 27.27-66.56 40.9-103.37 32.83-32.28-10.09-60.51-30.26-89.26-46.9-15.63-9.58-30.25-20.17-45.88-30.25-8.58-6-17.65-11.6-23.2-20.17z" fill="#C71F1E" p-id="18631"></path><path d="M18.75 846.29c12.1 0.5 23.7 0.5 35.8 0 0 21.18-1 42.86 0.5 64.54 26.73 1 54 1 81.19 0 1.51-21.18 0.5-42.86 0.5-64 12.1 0.51 23.7 0.51 35.8 0q-0.75 78.68 0 157.33h-35.8c0-21.68 1-42.86-0.5-64.54-26.73-1-54-1-81.19 0-1 21.68-0.5 42.86-0.5 64.54h-35.8c0.5-53 0.5-105.39 0-157.83z m182.54 0c12.1 0.5 23.7 0.5 35.8 0 1 33.78-0.51 67.57 0.5 101.86 0 16.64 13.11 33.78 30.76 33.78 17.65 3 42.86-2 46.9-22.69 1.51-37.31 0.5-75.13 0.5-113 12.1 0.5 23.7 0.5 35.8 0 0.51 33.78 0.51 67.57 0.51 101.35-0.51 13.11 0 28.75-10.59 38.33-19.16 18.65-47.4 21.18-72.61 19.66-15.64-1.51-33.28-2-45.89-12.6a49 49 0 0 1-20.68-41.86c-1-34.79 0-69.58-1-104.88z m232 0h38.83c4.54 17.14 15.13 31.26 20.67 47.9 14.12 22.69 19.67 49.42 34.29 71.61 6.05 12.1 11.6 24.2 15.13 37.82-12.1 0-24.21 1-36.31-0.51-8.07-10.59-10.08-24.71-17.14-35.8a336.18 336.18 0 0 0-74.63 0.5c-6.05 11.6-10.09 24.71-17.65 35.81-11.09 1-22.19 0.5-33.28 0.5 1-15.13 8.57-27.73 16.14-39.84 7.56-19.16 17.14-37.31 24.2-56.47 13.61-18.66 17.65-41.85 29.75-61.52z m-7.56 90.76a108.52 108.52 0 0 0 50.93 0c-8.66-19.16-14.66-38.82-25.77-56.47-11.6 17.14-16.64 37.82-25.21 56.47zM524 846.29h39.33c3 15.13 6.55 30.25 12.6 44.37 9.58 24.71 13.11 50.93 23.7 75.14l4.54-1.52c4-32.77 19.67-63 23.7-95.3a159.57 159.57 0 0 1 6.56-22.19h42.87c9.58 31.27 21.18 61.52 28.74 93.29 3 9.58 4 21.18 13.11 26.73 8.07-40.34 24.71-78.67 34.79-118.5 12.1-3 25.21-0.51 38.33-1.52-18.16 52.45-36.81 104.38-54 157.33-14.12 0-28.24 1-42.36 0-4.53-2.52-4.53-8.57-6.05-12.61-11.09-33.28-18.65-68.07-32.77-99.84-5 9.08-6.56 19.16-9.08 28.74-7.56 27.74-15.63 55.47-22.69 83.21-14.62 0.5-28.74 0.5-43.37 0-12.1-20.17-14.12-44.38-25.71-64.55-10.59-26.72-16.64-56-30.26-81.18a31.36 31.36 0 0 1-2-11.6zM818.49 867a46.9 46.9 0 0 1 38.82-20.17c27.74-0.5 55 0 82.7-0.5v28.24c-23.7-0.51-47.4-1-71.1 0-17.65 2-28.74 18.65-29.75 35.8 33.28 2 67.07 0.5 100.85 0.5v28.24c-32.78-0.5-66.06-1-98.83 0-4 16.14 5 33.28 21.68 37.32 25.72 4.53 51.43 1 77.15 2.52v24.71c-27.73 0-55 0.5-82.7 0a63.87 63.87 0 0 1-55-49.42c-5-29.75-4-63.54 16.14-87.24z m154.3-17.64a100.14 100.14 0 0 1 36.81-0.51c2 29.25 0.5 58.49 1 87.74-0.51 22.69 1.51 45.38-1.52 67.57h-36.3c0.51-51.98 0.51-103.41 0.01-154.84z" p-id="18632"></path></svg></a>
+
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css"integrity="sha256-c0uckgykQ9v5k&#43;IqViZOZKc47Jn7KQil4/MP3ySA3F8="crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css"integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE="crossorigin="anonymous"
+            >
+
+            </main>
+    
+
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
